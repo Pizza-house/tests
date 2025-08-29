@@ -1,0 +1,435 @@
+{
+  "currency": "$",
+  "pizzas": [
+    {
+      "id": "pepperoni",
+      "name": "Pepperoni",
+      "name_arabic": "بيبيروني",
+      "image": "Peproni.jpg",
+      "prices": {
+        "s": 5,
+        "m": 7,
+        "l": 10
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, pepperoni slices",
+      "description": "Classic American-style pizza with spicy pepperoni and melted cheese",
+      "spice_level": 2,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "shrimp",
+      "name": "Shrimp",
+      "name_arabic": "قريدس",
+      "image": "Shrimp.jpg",
+      "prices": {
+        "s": 10,
+        "m": 15,
+        "l": 20
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, fresh shrimp, Pepper, corn, mushrooms",
+      "description": "Gourmet seafood pizza with succulent shrimp and creamy white sauce",
+      "spice_level": 1,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "sausage",
+      "name": "Sausage",
+      "name_arabic": "سجق",
+      "image": "Sejo2.jpg",
+      "prices": {
+        "s": 5,
+        "m": 7,
+        "l": 10
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, Italian sausage , Pepper, corn, mushrooms , Olive",
+      "description": "Hearty pizza with savory Italian sausage and fresh vegetables",
+      "spice_level": 3,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "margherita",
+      "name": "Margherita",
+      "name_arabic": "مارغريتا",
+      "image": "Cheese.png",
+      "prices": {
+        "s": 5,
+        "m": 7,
+        "l": 10
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, oregano",
+      "description": "Classic Italian pizza with simple, fresh ingredients",
+      "spice_level": 1,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "name_arabic": "تونا",
+      "image": "Tuna.jpg",
+      "prices": {
+        "s": 5,
+        "m": 7,
+        "l": 10
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, Tuna , Pepper, corn, mushrooms , Olive , onions",
+      "description": "Mediterranean-style pizza with premium tuna and tangy capers",
+      "spice_level": 1,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "name_arabic": "حبش",
+      "image": "Tureky.jpg",
+      "prices": {
+        "s": 5,
+        "m": 7,
+        "l": 10
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, sliced Turkey , Pepper, corn, mushrooms , Olive",
+      "description": "Lean and healthy pizza with tender turkey and fresh mushrooms",
+      "spice_level": 1,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "smoked-turkey",
+      "name": "Smoked Turkey",
+      "name_arabic": "حبش مدخّن",
+      "image": "Tureky.jpg",
+      "prices": {
+        "s": 7,
+        "m": 9,
+        "l": 13
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, smoked turkey , Pepper, corn, mushrooms , Olive",
+      "description": "Gourmet pizza with smoky turkey",
+      "spice_level": 2,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "mortadella",
+      "name": "Mortadella",
+      "name_arabic": "مرتديلا",
+      "image": "Peproni.jpg",
+      "prices": {
+        "s": 5,
+        "m": 7,
+        "l": 10
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, mortadella , Pepper, corn, mushrooms , Olive",
+      "description": "Italian delicacy pizza with premium mortadella",
+      "spice_level": 1,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "vegetable",
+      "name": "Vegetable",
+      "name_arabic": "خضار",
+      "image": "Veg.jpg",
+      "prices": {
+        "s": 5,
+        "m": 7,
+        "l": 10
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, Pepper, corn, mushrooms , Olive",
+      "description": "Fresh and healthy pizza loaded with colorful vegetables",
+      "spice_level": 1,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "cocktail",
+      "name": "Cocktail",
+      "name_arabic": "كوكتيل",
+      "image": "Salami.png",
+      "prices": {
+        "s": 5,
+        "m": 7,
+        "l": 10
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, mixed meats , Pepper, corn,  mushrooms , Olive",
+      "description": "Supreme pizza with a variety of meats and vegetables",
+      "spice_level": 2,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "hotdog",
+      "name": "Hot Dog",
+      "name_arabic": "هوت دوغ",
+      "image": "Sejo2.jpg",
+      "prices": {
+        "s": 5,
+        "m": 7,
+        "l": 10
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, hotdog slices , Pepper, corn, mushrooms , Olive",
+      "description": "Fun fusion pizza combining classic hot dog flavors",
+      "spice_level": 2,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "hawaiian",
+      "name": "Hawaiian",
+      "name_arabic": "Hawaiian",
+      "image": "Hawai.png",
+      "prices": {
+        "s": 8,
+        "m": 10,
+        "l": 13
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, pineapple , beef bacon",
+      "description": "Classic American-style pizza with pineapple and melted cheese",
+      "spice_level": 2,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "salami",
+      "name": "Salami",
+      "name_arabic": "Salami",
+      "image": "Salami.png",
+      "prices": {
+        "s": 7,
+        "m": 9,
+        "l": 12
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, Salami , Pepper, corn, mushrooms , Olive",
+      "description": "Classic American-style pizza with spicy salami and melted cheese",
+      "spice_level": 2,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "chicken-bbq",
+      "name": "Chicken BBQ",
+      "name_arabic": "Chicken BBQ",
+      "image": "Chicken BQQ.jpg",
+      "prices": {
+        "s": 8,
+        "m": 12,
+        "l": 15
+      },
+      "ingredients": "mozzarella cheese, BBQ Sauce , Chiken, Pepper, corn, mushrooms , Chips",
+      "description": "Classic American-style pizza with spicy chicken and BBQ sauce and melted cheese",
+      "spice_level": 2,
+      "prep_time": "8-10 minutes"
+    },
+    {
+      "id": "swiss-bacon",
+      "name": "Swiss Bacon",
+      "name_arabic": "لحم مقدد",
+      "image": "Swiss Bacon.jpg",
+      "prices": {
+        "s": 9,
+        "m": 13,
+        "l": 17
+      },
+      "ingredients": "Mushroom Sauce , beef bacon , blue cheese , parmeson",
+      "description": "Classic American-style pizza with spicy swiss bacon and melted cheese",
+      "spice_level": 2,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "bbq-bacon",
+      "name": "BBQ Bacon",
+      "name_arabic": "لحم مقدد باربكيو",
+      "image": "Bacon.jpg",
+      "prices": {
+        "s": 8,
+        "m": 12,
+        "l": 16
+      },
+      "ingredients": "mozzarella, bacon, BBQ Sauce , Pepper, corn  , mushrooms , onions , parmeson",
+      "description": "Classic American-style pizza with spicy BBQ bacon and melted cheese",
+      "spice_level": 2,
+      "prep_time": "5-10 minutes"
+    },
+    {
+      "id": "honeymustard-chicken",
+      "name": "Honeymustard Chicken",
+      "name_arabic": "Honeymustard Chicken",
+      "image": "buffalo.png",
+      "prices": {
+        "s": 8,
+        "m": 12,
+        "l": 15
+      },
+      "ingredients": "mozzarella cheese, honeymustard sauce , Pepper, corn, mushrooms  , Chiken ,chips",
+      "description": "Classic American-style pizza with spicy honeymustard chicken and melted cheese",
+      "spice_level": 2,
+      "prep_time": "8-10 minutes"
+    },
+    {
+      "id": "buffalo-chicken",
+      "name": "Buffalo Chicken",
+      "name_arabic": "Buffalo Chicken",
+      "image": "buffalo.png",
+      "prices": {
+        "s": 8,
+        "m": 12,
+        "l": 15
+      },
+      "ingredients": "mozzarella cheese, buffalo sauce , chicken , Pepper, corn, mushrooms",
+      "description": "Classic American-style pizza with spicy buffalo chicken and melted cheese",
+      "spice_level": 2,
+      "prep_time": "8-10 minutes"
+    },
+    {
+      "id": "truffle-chicken",
+      "name": "Truffle Chicken",
+      "name_arabic": "Truffle Chicken",
+      "image": "Truffle.png",
+      "prices": {
+        "s": 10,
+        "m": 15,
+        "l": 20
+      },
+      "ingredients": "mozzarella cheese, truffle mayo , Chiken , fresh mushrooms, chips , cheddar cheese",
+      "description": "Gourmet pizza with tender chicken, crispy fries, melted cheese, and rich truffle mayo drizzle",
+      "spice_level": 1,
+      "prep_time": "10-12 minutes"
+    },
+    {
+      "id": "mushroom",
+      "name": "Mushroom",
+      "name_arabic": "فطر",
+      "image": "mushrom.png",
+      "prices": {
+        "s": 7,
+        "m": 9,
+        "l": 12
+      },
+      "ingredients": "Tomato sauce, mozzarella cheese, fresh mushrom , oregano",
+      "description": "Gourmet pizza with savory mushrooms, creamy white sauce, and melted",
+      "spice_level": 1,
+      "prep_time": "10-12 minutes"
+    }
+  ],
+  "extras": [
+    {
+      "id": "extra-cheese",
+      "name": "Extra Cheese",
+      "price": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Udqm7s3CtC7W0h4ZiBDkNEV8mUhvk06FIw&s"
+    },
+    {
+      "id": "buffalo-sauce",
+      "name": "buffalo Sauce",
+      "price": 1,
+      "image": "https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2022/10/buffalo-sauce-recipe.jpg"
+    },
+    {
+        "id": "honeymustard-sauce",
+        "name": "honeymustard Sauce",
+        "price": 1,
+        "image": "https://www.budgetbytes.com/wp-content/uploads/2019/05/Honey-Mustard-Sauce-Spoon-Drip.jpg"
+    },
+    {
+        "id": "extra-toppings",
+        "name": "Extra Toppings",
+        "price": 1.5,
+        "image": "https://ship.altamurapizza.com/cdn/shop/files/apo-exfive.jpg?v=1713148292"
+    },
+    {
+        "id": "dipping-sauce",
+        "name": "Dipping Sauce",
+        "price": 1,
+        "image": "https://thelemonapron.com/wp-content/uploads/2023/01/stromboli-23.jpg"
+    },
+    {
+        "id": "extra-shredded-cheddar-s",
+        "name": "Extra Shredded Cheddar S",
+        "price": 1,
+        "image": "https://simplycheese.net/assets/images/shredded-cheddar.jpg"
+    },
+    {
+        "id": "extra-shredded-cheddar-m-l",
+        "name": "Extra Shredded Cheddar M-L",
+        "price": 2,
+        "image": "https://simplycheese.net/assets/images/shredded-cheddar.jpg"
+    },
+    {
+        "id": "jalapeno",
+        "name": "Jalapeno",
+        "price": 1,
+        "image": "https://www.chilesandsmoke.com/wp-content/uploads/2024/05/Quick-Pickled-Jalapenos_Featured-002-1.jpg"
+    },
+    {
+        "id": "chips",
+        "name": "Chips",
+        "price": 1,
+        "image": "https://pizzaratta.com/wp-content/uploads/2020/11/chipss.png"
+    },
+    {
+        "id": "bbq-sauce",
+        "name": "BBQ Sauce",
+        "price": 1,
+        "image": "https://fattalonline.com/cdn/shop/products/188281.png?v=1678998059"
+    },
+    {
+        "id": "fresh-mushroom-s",
+        "name": "Fresh Mushroom S",
+        "price": 1,
+        "image": "https://cdn.mafrservices.com/sys-master-root/h9e/h8f/9334832103454/115063_main.jpg?im=Resize=1700"
+    },
+    {
+        "id": "fresh-mushroom-m-l",
+        "name": "Fresh Mushroom M-L",
+        "price": 2,
+        "image": "https://cdn.mafrservices.com/sys-master-root/h9e/h8f/9334832103454/115063_main.jpg?im=Resize=1700"
+    },
+    {
+        "id": "mozzarella-cheese-s",
+        "name": "mozzarella cheese S",
+        "price": 1,
+        "image": "https://cheesemaking.com/cdn/shop/products/mozzarella-pizza-recipe-instructions-120348.jpg?crop=center&height=630&v=1744671270&width=1200"
+    },
+    {
+        "id": "mozzarella-cheese-m",
+        "name": "mozzarella cheese M",
+        "price": 2,
+        "image": "https://cheesemaking.com/cdn/shop/products/mozzarella-pizza-recipe-instructions-120348.jpg?crop=center&height=630&v=1744671270&width=1200"
+    },
+    {
+        "id": "mozzarella-cheese-l",
+        "name": "mozzarella cheese L",
+        "price": 3,
+        "image": "https://cheesemaking.com/cdn/shop/products/mozzarella-pizza-recipe-instructions-120348.jpg?crop=center&height=630&v=1744671270&width=1200"
+    },
+    {
+        "id": "cheese-crust-s",
+        "name": "cheese crust S",
+        "price": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIaZHcYKD1GRTNpAzoe_dXQJFNreHBkHpSw&s"
+    },
+    {
+        "id": "cheese-crust-m",
+        "name": "cheese crust M",
+        "price": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIaZHcYKD1GRTNpAzoe_dXQJFNreHBkHpSw&s"
+    },
+    {
+        "id": "cheese-crust-l",
+        "name": "cheese crust L",
+        "price": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIaZHcYKD1GRTNpAzoe_dXQJFNreHBkHpSw&s"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "soft-drinks",
+      "name": "Soft Drinks",
+      "price": "100L.L",
+      "image": "https://frenchbakery.cafe/wp-content/uploads/2020/06/Soft-Drinks-1-copy.jpg"
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "price": "30L.L",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h80/hbe/26412309774366/1064_main.jpg?im=Resize=480"
+    },
+    {
+      "id": "juice",
+      "name": "Juice",
+      "price": "50L.L",
+      "image": "https://cdn.mafrservices.com/sys-master-root/hd1/h0c/9111477190686/292567_main.jpg?im=Resize=1700"
+    }
+  ]
+}

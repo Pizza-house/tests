@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <div class="header-controls">
+                <div class="currency-toggle">
+                    <span>Currency:</span>
+                    <select id="currency-selector">
+                        <option value="$">$ (USD)</option>
+                        <option value="L.L">L.L (LBP)</option>
+                    </select>
+                </div>
+                <button id="logout-button">Logout</button>
+            </div>
+        </header>
+
+        <nav class="admin-tabs">
+            <button class="tab-link active" data-tab="pizzas">Manage Pizzas</button>
+            <button class="tab-link" data-tab="extras">Manage Extras</button>
+            <button class="tab-link" data-tab="drinks">Manage Drinks</button>
+        </nav>
+
+        <main>
+            <!-- Pizzas Tab -->
+            <div id="pizzas" class="tab-content active">
+                <h2>Manage Pizzas</h2>
+                <div id="pizzas-list" class="items-list"></div>
+                <button class="add-new-btn" data-category="pizzas">+ Add New Pizza</button>
+            </div>
+
+            <!-- Extras Tab -->
+            <div id="extras" class="tab-content">
+                <h2>Manage Extras</h2>
+                <div id="extras-list" class="items-list"></div>
+                 <button class="add-new-btn" data-category="extras">+ Add New Extra</button>
+            </div>
+
+            <!-- Drinks Tab -->
+            <div id="drinks" class="tab-content">
+                <h2>Manage Drinks</h2>
+                <div id="drinks-list" class="items-list"></div>
+                 <button class="add-new-btn" data-category="drinks">+ Add New Drink</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for Editing and Adding Items -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3 id="modal-title">Edit Item</h3>
+            <form id="edit-form"></form>
+            <div class="modal-actions">
+                <button id="save-button" class="btn-primary">Save Changes</button>
+                <button id="delete-button" class="btn-danger">Delete Item</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

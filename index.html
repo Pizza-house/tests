@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza House Menu</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+<div class="menu-container">
+    <div class="menu-header">
+        <div class="logo">Pizza House</div>
+        <div class="subtitle">Delicious Pizzas Made Fresh Daily</div>
+    </div>
+    
+    <div class="tabs">
+        <div class="tab-btn active" data-tab="pizza">Pizzas</div>
+        <div class="tab-btn" data-tab="extras">Extras</div>
+        <div class="tab-btn" data-tab="drinks">Drinks</div>
+    </div>
+
+    <div class="tab-content active" id="pizza">
+        <table class="menu-table">
+            <thead>
+                <tr>
+                    <th>Pizza</th>
+                    <th class="price-col">S</th>
+                    <th class="price-col">M</th>
+                    <th class="price-col">L</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="pizza-row" data-pizza="pepperoni">
+                    <td class="item-name">
+                        <img src="Peproni.jpg" alt="Pepperoni Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Pepperoni</div>
+                            <div class="item-name-arabic">بيبيروني</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">5</td>
+                    <td class="price-col price-m">7</td>
+                    <td class="price-col price-l">10</td>
+                </tr>
+                <tr class="detail-row" data-pizza="pepperoni">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, pepperoni slices</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Classic American-style pizza with spicy pepperoni and melted cheese</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="shrimp">
+                    <td class="item-name">
+                        <img src="Shrimp.jpg" alt="Shrimp Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Shrimp</div>
+                            <div class="item-name-arabic">قريدس</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">10</td>
+                    <td class="price-col price-m">15</td>
+                    <td class="price-col price-l">20</td>
+                </tr>
+                <tr class="detail-row" data-pizza="shrimp">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, fresh shrimp, Pepper, corn, mushrooms </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Gourmet seafood pizza with succulent shrimp and creamy white sauce</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="sausage">
+                    <td class="item-name">
+                        <img src="Sejo2.jpg" alt="Sausage Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Sausage</div>
+                            <div class="item-name-arabic">سجق</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">5</td>
+                    <td class="price-col price-m">7</td>
+                    <td class="price-col price-l">10</td>
+                </tr>
+                <tr class="detail-row" data-pizza="sausage">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, Italian sausage , Pepper, corn, mushrooms , Olive</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Hearty pizza with savory Italian sausage and fresh vegetables</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="margherita">
+                    <td class="item-name">
+                        <img src="Cheese.png" alt="Margherita Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Margherita</div>
+                            <div class="item-name-arabic">مارغريتا</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">5</td>
+                    <td class="price-col price-m">7</td>
+                    <td class="price-col price-l">10</td>
+                </tr>
+                <tr class="detail-row" data-pizza="margherita">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, oregano </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Classic Italian pizza with simple, fresh ingredients</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="tuna">
+                    <td class="item-name">
+                        <img src="Tuna.jpg" alt="Tuna Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Tuna</div>
+                            <div class="item-name-arabic">تونا</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">5</td>
+                    <td class="price-col price-m">7</td>
+                    <td class="price-col price-l">10</td>
+                </tr>
+                <tr class="detail-row" data-pizza="tuna">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, Tuna , Pepper, corn, mushrooms , Olive , onions</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Mediterranean-style pizza with premium tuna and tangy capers</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="turkey">
+                    <td class="item-name">
+                        <img src="Tureky.jpg" alt="Turkey Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Turkey</div>
+                            <div class="item-name-arabic">حبش</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">5</td>
+                    <td class="price-col price-m">7</td>
+                    <td class="price-col price-l">10</td>
+                </tr>
+                <tr class="detail-row" data-pizza="turkey">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, sliced Turkey , Pepper, corn, mushrooms , Olive</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Lean and healthy pizza with tender turkey and fresh mushrooms</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="smoked-turkey">
+                    <td class="item-name">
+                        <img src="Tureky.jpg" alt="Smoked Turkey Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Smoked Turkey</div>
+                            <div class="item-name-arabic">حبش مدخّن</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">7</td>
+                    <td class="price-col price-m">9</td>
+                    <td class="price-col price-l">13</td>
+                </tr>
+                <tr class="detail-row" data-pizza="smoked-turkey">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, smoked turkey , Pepper, corn, mushrooms , Olive</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Gourmet pizza with smoky turkey </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="mortadella">
+                    <td class="item-name">
+                        <img src="Peproni.jpg" alt="Mortadella Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Mortadella</div>
+                            <div class="item-name-arabic">مرتديلا</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">5</td>
+                    <td class="price-col price-m">7</td>
+                    <td class="price-col price-l">10</td>
+                </tr>
+                <tr class="detail-row" data-pizza="mortadella">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p> Tomato sauce, mozzarella cheese, mortadella , Pepper, corn, mushrooms , Olive </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Italian delicacy pizza with premium mortadella </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="vegetable">
+                    <td class="item-name">
+                        <img src="Veg.jpg" alt="Vegetable Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Vegetable</div>
+                            <div class="item-name-arabic">خضار</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">5</td>
+                    <td class="price-col price-m">7</td>
+                    <td class="price-col price-l">10</td>
+                </tr>
+                <tr class="detail-row" data-pizza="vegetable">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, Pepper, corn, mushrooms , Olive</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Fresh and healthy pizza loaded with colorful vegetables</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="cocktail">
+                    <td class="item-name">
+                        <img src="Salami.png" alt="Cocktail Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Cocktail</div>
+                            <div class="item-name-arabic">كوكتيل</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">5</td>
+                    <td class="price-col price-m">7</td>
+                    <td class="price-col price-l">10</td>
+                </tr>
+                <tr class="detail-row" data-pizza="cocktail">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, mixed meats , Pepper, corn,  mushrooms , Olive</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Supreme pizza with a variety of meats and vegetables</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="hotdog">
+                    <td class="item-name">
+                        <img src="Sejo2.jpg" alt="Hot Dog Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Hot Dog</div>
+                            <div class="item-name-arabic">هوت دوغ</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">5</td>
+                    <td class="price-col price-m">7</td>
+                    <td class="price-col price-l">10</td>
+                </tr>
+                <tr class="detail-row" data-pizza="hotdog">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, hotdog slices , Pepper, corn, mushrooms , Olive </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Fun fusion pizza combining classic hot dog flavors</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="hawaiian">
+                    <td class="item-name">
+                        <img src="Hawai.png" alt="Hawaiian Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Hawaiian</div>
+                            <div class="item-name-arabic">Hawaiian</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">8</td>
+                    <td class="price-col price-m">10</td>
+                    <td class="price-col price-l">13</td>
+                </tr>
+                <tr class="detail-row" data-pizza="hawaiian">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, pineapple , beef bacon </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Classic American-style pizza with pineapple and melted cheese</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="salami">
+                    <td class="item-name">
+                        <img src="Salami.png" alt="Salami Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Salami</div>
+                            <div class="item-name-arabic">Salami</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">7</td>
+                    <td class="price-col price-m">9</td>
+                    <td class="price-col price-l">12</td>
+                </tr>
+                <tr class="detail-row" data-pizza="salami">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, Salami , Pepper, corn, mushrooms , Olive</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Classic American-style pizza with spicy salami and melted cheese</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="chicken-bbq">
+                    <td class="item-name">
+                        <img src="Chicken BQQ.jpg" alt="Chicken BBQ Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Chicken BBQ</div>
+                            <div class="item-name-arabic">Chicken BBQ</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">8</td>
+                    <td class="price-col price-m">12</td>
+                    <td class="price-col price-l">15</td>
+                </tr>
+                <tr class="detail-row" data-pizza="chicken-bbq">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>mozzarella cheese, BBQ Sauce , Chiken, Pepper, corn, mushrooms , Chips</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Classic American-style pizza with spicy chicken and BBQ sauce and melted cheese</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">8-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="swiss-bacon">
+                    <td class="item-name">
+                        <img src="Swiss Bacon.jpg" alt="Swiss Bacon Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Swiss Bacon</div>
+                            <div class="item-name-arabic">لحم مقدد </div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">9</td>
+                    <td class="price-col price-m">13</td>
+                    <td class="price-col price-l">17</td>
+                </tr>
+                <tr class="detail-row" data-pizza="swiss-bacon">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p> Mushroom Sauce , beef bacon , blue cheese , parmeson</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Classic American-style pizza with spicy swiss bacon and melted cheese</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="bbq-bacon">
+                    <td class="item-name">
+                        <img src="Bacon.jpg" alt="BBQ Bacon Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>BBQ Bacon</div>
+                            <div class="item-name-arabic">لحم مقدد باربكيو</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">8</td>
+                    <td class="price-col price-m">12</td>
+                    <td class="price-col price-l">16</td>
+                </tr>
+                <tr class="detail-row" data-pizza="bbq-bacon">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>mozzarella, bacon, BBQ Sauce , Pepper, corn  , mushrooms , onions , parmeson </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Classic American-style pizza with spicy BBQ bacon and melted cheese</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">5-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="honeymustard-chicken">
+                    <td class="item-name">
+                        <img src="buffalo.png" alt="Chicken BBQ Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Honeymustard Chicken</div>
+                            <div class="item-name-arabic">Honeymustard Chicken</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">8</td>
+                    <td class="price-col price-m">12</td>
+                    <td class="price-col price-l">15</td>
+                </tr>
+                <tr class="detail-row" data-pizza="honeymustard-chicken">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p> mozzarella cheese, honeymustard sauce , Pepper, corn, mushrooms  , Chiken ,chips</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Classic American-style pizza with spicy honeymustard chicken and melted cheese</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">8-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="buffalo-chicken">
+                    <td class="item-name">
+                        <img src="buffalo.png" alt="Chicken BBQ Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Buffalo Chicken</div>
+                            <div class="item-name-arabic">Buffalo Chicken</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">8</td>
+                    <td class="price-col price-m">12</td>
+                    <td class="price-col price-l">15</td>
+                </tr>
+                <tr class="detail-row" data-pizza="buffalo-chicken">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p> mozzarella cheese, buffalo sauce , chicken , Pepper, corn, mushrooms </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Classic American-style pizza with spicy buffalo chicken and melted cheese</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">8-10 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="truffle-chicken">
+                    <td class="item-name">
+                        <img src="Truffle.png" alt="Chicken Truffle Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Truffle Chicken</div>
+                            <div class="item-name-arabic">Truffle Chicken</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">10</td>
+                    <td class="price-col price-m">15</td>
+                    <td class="price-col price-l">20</td>
+                </tr>
+                <tr class="detail-row" data-pizza="truffle-chicken">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>mozzarella cheese, truffle mayo , Chiken , fresh mushrooms, chips , cheddar cheese  </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Gourmet pizza with tender chicken, crispy fries, melted cheese, and rich truffle mayo drizzle</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">10-12 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="pizza-row" data-pizza="mushroom">
+                    <td class="item-name">
+                        <img src="mushrom.png" alt="mushroom Pizza" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Mushroom</div>
+                            <div class="item-name-arabic">فطر</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">7</td>
+                    <td class="price-col price-m">9</td>
+                    <td class="price-col price-l">12</td>
+                </tr>
+                <tr class="detail-row" data-pizza="mushroom">
+                    <td colspan="4">
+                        <div class="detail-content">
+                            <div class="detail-grid">
+                                <div class="detail-section">
+                                    <h4>Ingredients</h4>
+                                    <p>Tomato sauce, mozzarella cheese, fresh mushrom , oregano </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Description</h4>
+                                    <p>Gourmet pizza with savory mushrooms, creamy white sauce, and melted </p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Spice Level</h4>
+                                    <div class="spice-level">
+                                        <span class="spice-dot active"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                        <span class="spice-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="detail-section">
+                                    <h4>Prep Time</h4>
+                                    <p class="prep-time">10-12 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="tab-content" id="extras">
+        <table class="menu-table">
+            <thead>
+                <tr>
+                    <th>Extras</th>
+                    <th class="price-col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Udqm7s3CtC7W0h4ZiBDkNEV8mUhvk06FIw&s" alt="Extra Cheese" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Extra Cheese</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://cdn.loveandlemons.com/wp-content/uploads/opengraph/2022/10/buffalo-sauce-recipe.jpg" alt="Extra Cheese" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>buffalo Sauce</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://www.budgetbytes.com/wp-content/uploads/2019/05/Honey-Mustard-Sauce-Spoon-Drip.jpg" alt="Extra Cheese" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>honeymustard Sauce</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://ship.altamurapizza.com/cdn/shop/files/apo-exfive.jpg?v=1713148292" alt="Extra Toppings" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Extra Toppings</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1.5</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://thelemonapron.com/wp-content/uploads/2023/01/stromboli-23.jpg" alt="Dipping Sauce" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Dipping Sauce</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://simplycheese.net/assets/images/shredded-cheddar.jpg" alt="Extra Shredded Cheddar S" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Extra Shredded Cheddar S</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://simplycheese.net/assets/images/shredded-cheddar.jpg" alt="Extra Shredded Cheddar M-L" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Extra Shredded Cheddar M-L</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">2</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://www.chilesandsmoke.com/wp-content/uploads/2024/05/Quick-Pickled-Jalapenos_Featured-002-1.jpg" alt="Jalapeno" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Jalapeno</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://pizzaratta.com/wp-content/uploads/2020/11/chipss.png" alt="Chips" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Chips</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://fattalonline.com/cdn/shop/products/188281.png?v=1678998059" alt="BBQ Sauce" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>BBQ Sauce</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                                <tr>
+                    <td class="item-name">
+                        <img src="https://cdn.mafrservices.com/sys-master-root/h9e/h8f/9334832103454/115063_main.jpg?im=Resize=1700" alt="Mushroom" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Fresh Mushroom S</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                                                <tr>
+                    <td class="item-name">
+                        <img src="https://cdn.mafrservices.com/sys-master-root/h9e/h8f/9334832103454/115063_main.jpg?im=Resize=1700" alt="Mushroom" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Fresh Mushroom M-L</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">2</td>
+                </tr>
+                                                                <tr>
+                    <td class="item-name">
+                        <img src="https://cheesemaking.com/cdn/shop/products/mozzarella-pizza-recipe-instructions-120348.jpg?crop=center&height=630&v=1744671270&width=1200" alt="mozzarella cheese" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>mozzarella cheese S</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">1</td>
+                </tr>
+                                                                                <tr>
+                    <td class="item-name">
+                        <img src="https://cheesemaking.com/cdn/shop/products/mozzarella-pizza-recipe-instructions-120348.jpg?crop=center&height=630&v=1744671270&width=1200" alt="mozzarella cheese" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>mozzarella cheese M</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">2</td>
+                                                                                    <tr>
+                    <td class="item-name">
+                        <img src="https://cheesemaking.com/cdn/shop/products/mozzarella-pizza-recipe-instructions-120348.jpg?crop=center&height=630&v=1744671270&width=1200" alt="mozzarella cheese" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>mozzarella cheese L</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">3</td>
+                </tr>
+                                                                                                    <tr>
+                    <td class="item-name">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIaZHcYKD1GRTNpAzoe_dXQJFNreHBkHpSw&s" alt="mozzarella cheese" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>cheese crust S</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">2</td>
+                </tr>
+                                                                                                                    <tr>
+                    <td class="item-name">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIaZHcYKD1GRTNpAzoe_dXQJFNreHBkHpSw&s" alt="mozzarella cheese" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>cheese crust M</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">3</td>
+                </tr>
+                                                                                                                    <tr>
+                    <td class="item-name">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIaZHcYKD1GRTNpAzoe_dXQJFNreHBkHpSw&s" alt="mozzarella cheese" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>cheese crust L</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">4</td>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="tab-content" id="drinks">
+        <table class="menu-table">
+            <thead>
+                <tr>
+                    <th>Drinks</th>
+                    <th class="price-col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://frenchbakery.cafe/wp-content/uploads/2020/06/Soft-Drinks-1-copy.jpg" alt="Soft Drinks" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Soft Drinks</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">100L.L</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://cdn.mafrservices.com/sys-master-root/h80/hbe/26412309774366/1064_main.jpg?im=Resize=480" alt="Water" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Water</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">30L.L</td>
+                </tr>
+                <tr>
+                    <td class="item-name">
+                        <img src="https://cdn.mafrservices.com/sys-master-root/hd1/h0c/9111477190686/292567_main.jpg?im=Resize=1700" alt="Juice" class="item-thumbnail">
+                        <div class="item-details">
+                            <div>Juice</div>
+                        </div>
+                    </td>
+                    <td class="price-col price-s">50L.L</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="contact">
+        <div class="phone">78-895660</div>
+        <div class="location">
+            <svg class="location-icon" xmlns="https://maps.app.goo.gl/1Bvv1EUfRezAs9MS6" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span class="location-text">حبوش البيدر سنتر درويش</span>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
