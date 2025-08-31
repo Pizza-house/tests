@@ -191,11 +191,17 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- Save Data Function ---
     function saveMenuData() {
-        menuData.currency = document.getElementById('currency-selector').value;
-        console.log("Saving data (simulation):", JSON.stringify(menuData, null, 2));
-        alert("Your changes have been prepared! In a real application, this would be saved to the server.");
-        // In a real web server environment, you would use an API call here:
-        // fetch('/api/save-menu', { method: 'POST', body: JSON.stringify(menuData), headers: {'Content-Type': 'application/json'}})
+        fetch('http://localhost:3000/menu-data.json', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(menuData)
+        })
+        .then(res => res.json())
+        .then(data => {
+            alert('Menu saved!');
+            // Optionally reload menu data here
+        })
+        .catch(err => alert('Error saving menu!'));
     }
     
     document.getElementById('currency-selector').addEventListener('change', saveMenuData);
@@ -204,14 +210,28 @@ document.addEventListener('DOMContentLoaded', () => {
     loadMenuData();
 });
 
+function uploadImage(file, callback) {
+    const formData = new FormData();
+    formData.append('image', file);
+    fetch('http://localhost:3000/upload', {
+        method: 'POST',
+        body: formData
+    })
+    .then(res => res.json())
+    .then(data => callback(data.url))
+    .catch(err => alert('Image upload failed!'));
+}
+
+// Usage in your image upload handler:
 document.addEventListener('change', function(e) {
     if (e.target.id === 'image-upload') {
         const file = e.target.files[0];
         if (file) {
-            const url = URL.createObjectURL(file);
-            document.getElementById('image').value = url;
-            document.getElementById('image-preview').src = url;
-            document.getElementById('image-preview').style.display = 'block';
+            uploadImage(file, function(url) {
+                document.getElementById('image').value = url;
+                document.getElementById('image-preview').src = url;
+                document.getElementById('image-preview').style.display = 'block';
+            });
         }
     }
 });
