@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Fetch and Render Menu Data ---
     async function loadMenu() {
         try {
-            const response = await fetch('menu-data.json');
+            const response = await fetch('http://localhost:3000/menu-data.json');
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             menuData = await response.json();
             
