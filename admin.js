@@ -107,10 +107,12 @@ document.addEventListener('DOMContentLoaded', () => {
         let fields = `
             <label for="name">Name:</label>
             <input type="text" id="name" value="${item.name || ''}" required>
-            <label for="image">Image Path:</label>
-            <input type="text" id="image" value="${item.image || ''}">
+            <label for="image-upload">Image (upload):</label>
+            <input type="file" id="image-upload" accept="image/*">
+            <label for="image">Image URL:</label>
+            <input type="text" id="image" value="${item.image || ''}" placeholder="Paste image URL or use upload">
+            <img id="image-preview" src="${item.image || ''}" style="max-width:100px;display:${item.image ? 'block':'none'};margin-top:10px;">
         `;
-
         if (category === 'pizzas') {
             fields += `
                 <label for="name_arabic">Arabic Name:</label>
@@ -126,10 +128,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <label for="price_l">Price (L):</label>
                 <input type="number" id="price_l" value="${item.prices ? item.prices.l : ''}" step="0.01">
             `;
-        } else { // Extras and Drinks
+        } else {
             fields += `
                 <label for="price">Price:</label>
-                <input type="text" id="price" value="${item.price || ''}">
+                <input type="number" id="price" value="${item.price || ''}" step="0.01">
             `;
         }
         return fields;
@@ -200,4 +202,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initial load
     loadMenuData();
+});
+
+document.addEventListener('change', function(e) {
+    if (e.target.id === 'image-upload') {
+        const file = e.target.files[0];
+        if (file) {
+            const url = URL.createObjectURL(file);
+            document.getElementById('image').value = url;
+            document.getElementById('image-preview').src = url;
+            document.getElementById('image-preview').style.display = 'block';
+        }
+    }
 });
